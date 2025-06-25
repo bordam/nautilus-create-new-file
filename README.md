@@ -13,7 +13,7 @@ Check my [nautilus extension collection](https://github.com/SimBoi/nautilus-exte
 	sudo apt install -y python3-nautilus
 	# 2. download the extension script
 	mkdir -p ~/.local/share/nautilus-python/extensions
-	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/not_simboi/nautilus-create-new-file/main/nautilus-create-new-file.py
+	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/simboi/nautilus-create-new-file/main/nautilus-create-new-file.py
 	# 3. restart nautilus
 	nautilus -q
 	```
