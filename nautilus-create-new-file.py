@@ -76,7 +76,7 @@ class CreateFileExtension(GObject.GObject, Nautilus.MenuProvider):
         )
         menu_item.connect(
             "activate",
-            lambda *_: CreateFileDialog(folder).present(None),
+            lambda *_: CreateFileDialog(folder).present(Gtk.Application.get_default().get_active_window()),
             None,
         )
         return [
