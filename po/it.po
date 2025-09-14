@@ -24,7 +24,7 @@ msgstr "Nuovo file"
 
 #: nautilus-create-new-file.py:43
 msgid "File Name"
-msgstr "Nome file"
+msgstr "Nome del file"
 
 #: nautilus-create-new-file.py:49
 msgid "Create"
