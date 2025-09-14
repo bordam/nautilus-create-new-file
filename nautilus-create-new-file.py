@@ -34,6 +34,7 @@ class CreateFileDialog(Adw.Dialog):
         # Create the entry for the file name
         self.file_name = Adw.EntryRow(title="File Name")
         list_box.append(self.file_name)
+        self.file_name.connect("entry-activated", lambda *_: self.creaet_file())
 
         # Create submit button to call the creaet_file method
         self.submit_button = Gtk.Button(
