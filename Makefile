@@ -32,7 +32,7 @@ clean:
 # User install
 install: mo
 	install -m 0644 "$(PY_FILE)" "$(USER_EXT_DIR)/$(PY_FILE)"
-	mkdir "$(USER_EXT_DIR)/$(APPNAME)/"
+	mkdir -p "$(USER_EXT_DIR)/$(APPNAME)/"
 	cp -a "$(LOCALE_DIR)" "$(USER_EXT_DIR)/$(APPNAME)/"
 	@echo "$(APPNAME) installed in $(USER_EXT_DIR)/$(APPNAME)"
 
